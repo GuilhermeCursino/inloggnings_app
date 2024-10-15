@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>Logga In</h1>
+  <form action="/login" method="POST">
+    <label for="username">Användarnamn:</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Lösenord:</label>
+    <input type="password" id="password" name="password" required><br>
+    <button type="submit">Logga in</button>
+    <button type="button" onclick="window.location.href='/'">Tillbaka till Index</button>
+  </form>
+  <p><%= message %></p>
+</body>
+</html>
