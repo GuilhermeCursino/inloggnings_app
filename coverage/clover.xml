@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1728994641617" clover="3.2.0">
-  <project timestamp="1728994641617" name="All files">
+<coverage generated="1730318901507" clover="3.2.0">
+  <project timestamp="1730318901507" name="All files">
     <metrics statements="34" coveredstatements="29" conditionals="16" coveredconditionals="11" methods="8" coveredmethods="8" elements="58" coveredelements="48" complexity="0" loc="34" ncloc="34" packages="1" files="1" classes="1"/>
     <file name="user.js" path="C:\Users\GuilhermeCursino\OneDrive - Mericon Engineering AB\Skrivbordet\VSCode\inloggnings_app\src\user.js">
       <metrics statements="34" coveredstatements="29" conditionals="16" coveredconditionals="11" methods="8" coveredmethods="8"/>

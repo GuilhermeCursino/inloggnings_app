@@ -9,6 +9,12 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 
+//---------------------------------------------------------------------
+// Pre-populate users object with some test users
+createUser('testuser1', 'Password1');
+createUser('testuser2', 'Password2');
+//---------------------------------------------------------------------
+
 // Route för startsidan
 app.get('/', (req, res) => {
   res.render('index');
